@@ -109,7 +109,7 @@ namespace ApiPruebaTecnica.Controllers
             }
             catch (Exception ex)
             {
-                return code = Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "").RequestMessage.ToString();
+                return ex.Message;
             }
 
             return code;
@@ -134,13 +134,13 @@ namespace ApiPruebaTecnica.Controllers
                 {
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
-                        code = Request.CreateResponse(HttpStatusCode.OK, "").RequestMessage.ToString();
+                        code = "OK";
                     }
                 }
             }
             catch (Exception ex)
             {
-                return code = Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "").RequestMessage.ToString();
+                return ex.Message;
             }
 
             return code;
