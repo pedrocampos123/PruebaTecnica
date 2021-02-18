@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conexion", "Conexion\Conexion.csproj", "{F869C923-1A60-4210-B2FA-60CB7C9C7AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPruebaTecnica", "ApiPruebaTecnica\ApiPruebaTecnica.csproj", "{ED9BD534-7E4A-4C58-AA5F-926D88654D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao", "Dao\Dao.csproj", "{81CD9B09-8F10-44D9-95EB-41205CFE01E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F869C923-1A60-4210-B2FA-60CB7C9C7AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F869C923-1A60-4210-B2FA-60CB7C9C7AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F869C923-1A60-4210-B2FA-60CB7C9C7AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F869C923-1A60-4210-B2FA-60CB7C9C7AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9BD534-7E4A-4C58-AA5F-926D88654D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9BD534-7E4A-4C58-AA5F-926D88654D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9BD534-7E4A-4C58-AA5F-926D88654D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9BD534-7E4A-4C58-AA5F-926D88654D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CD9B09-8F10-44D9-95EB-41205CFE01E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CD9B09-8F10-44D9-95EB-41205CFE01E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CD9B09-8F10-44D9-95EB-41205CFE01E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CD9B09-8F10-44D9-95EB-41205CFE01E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {192D98C9-AF13-4281-ABFD-8AD7DF02E984}
+	EndGlobalSection
+EndGlobal
