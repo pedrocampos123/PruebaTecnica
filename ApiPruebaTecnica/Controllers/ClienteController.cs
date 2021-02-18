@@ -134,7 +134,7 @@ namespace ApiPruebaTecnica.Controllers
                 {
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
-                        code = "OK";
+                        code = "OK"; 
                     }
                 }
             }
